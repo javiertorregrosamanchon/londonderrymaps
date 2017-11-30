@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+	.my-4{
+	font-weight: bold;
+	}
+	.logo{
+	width:30%;
+	}
+	.prinP{
+	font-size:20px; 
+	text-align:justify;
+	}
+	.a{
+	margin-bottom: 30px;
+	flex: 0 0 25%;
+    max-width: 25%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	}
+		.a2{
+	margin-bottom: 30px;
+	flex: 0 0 17%;
+    max-width: 25%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	}
+	.correo, .tel, .face, .twitter{
+		width:4%;
+	}
+	@media screen and (max-width: 994px) {
+		.a2{
+			display:none;
+		}
+		.correo, .tel, .face, .twitter{
+		width:6%;
+	}
+	.a3{
+	margin-bottom: 30px;
+	flex: 0 0 25%;
+    max-width: 25%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	}
+	}
+	@media screen and (max-width: 480px) {
+		.a3{display:none;}
+	.correo, .tel, .face, .twitter{
+		width:7%;
+	}
+	.logo{
+	width:50%;
+	}
+	.prinP{
+	font-size:18px; 
+	text-align:justify;
+	}
+	.my-4{
+	font-size:25px;
+	}
+	.a, .a2{
+		margin:0;
+		display:none;
+	}
+	}
